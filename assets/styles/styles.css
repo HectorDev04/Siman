@@ -44,7 +44,7 @@ body {
 }
 
 .header .navbar-brand .logo-img {
-  width: 70px;
+  width: 3.5rem;
 }
 
 /* Search Container */
@@ -126,15 +126,15 @@ body {
   justify-content: center;
 }
 
+.footer .subscribe .button-send {
+  text-align: center;
+}
+
 .footer .subscribe .form-control {
   border: 1px solid #ccc;
   border-radius: 0.25rem;
   padding: 0.5rem;
   margin-right: 0.5rem;
-}
-
-.footer .subscribe .btn {
-  border-radius: 0.25rem;
 }
 
 .footer .card-tell {
