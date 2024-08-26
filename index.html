@@ -3,6 +3,8 @@
 
 <head>
     <title>Siman</title>
+    <meta name="description"
+        content="Almacenes Siman ofrece una amplia gama de productos, incluyendo ropa, electrónica y artículos para el hogar. Descubre nuestras mejores ofertas y promociones.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -37,8 +39,8 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid d-flex justify-content-center">
                 <ul class="navbar-nav d-flex flex-row justify-content-center">
-                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contacto</a></li>
+                    <li class="nav-item"><a href="./assets/pages/promociones.html" class="nav-link">Promociones</a></li>
+                    <li class="nav-item"><a href="./assets/pages/contacto.html" class="nav-link">Contacto</a></li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -56,6 +58,11 @@
     </header>
 
     <main class="main-content">
+
+        <section class="banner">
+            <img src="./assets/img/img banner.gif" alt="">
+        </section>
+
         <section id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-bs-ride="carousel">
             <section class="carousel-inner">
                 <article class="carousel-item active">
@@ -71,6 +78,7 @@
                     <img src="/assets/img/img4.webp" class="img-carrusel d-block w-100" alt="Imagen 4">
                 </article>
             </section>
+            <a href="./assets/pages/promociones.html" class="btn btn-outline-danger mt-1">Comprar ahora!</a>
 
             <section class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -83,8 +91,24 @@
                     aria-label="Slide 4"></button>
             </section>
         </section>
-        <a href="./assets/pages/promociones.html" class="btn btn-outline-danger mt-1">Comprar ahora!</a>
+
+        <section class="cards-section row mt-5">
+            <div class="col-md-6 d-flex flex-column">
+                <article class="imgCard1 mb-2">
+                    <img src="./assets/img/imgCard1.webp" alt="" class="img-fluid">
+                </article>
+                <article class="imgCard2 mb-2">
+                    <img src="./assets/img/imgCard2.webp" alt="" class="img-fluid">
+                </article>
+            </div>
+            <div class="col-md-6">
+                <article class="imgCard3">
+                    <img src="./assets/img/imgCard3.webp" alt="" class="img-fluid">
+                </article>
+            </div>
+        </section>
     </main>
+
 
 
 
