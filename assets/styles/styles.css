@@ -44,9 +44,16 @@ body {
 }
 
 .header .navbar-brand .logo-img {
-  width: 3.5rem;
+  width: 100%;
+  max-width: 120px;
+  height: auto;
 }
 
+@media (max-width: 576px) {
+  .haeder .navbar-brand .logo-img {
+    max-width: 80px;
+  }
+}
 /* Search Container */
 .search-container {
   display: flex;
