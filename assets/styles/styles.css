@@ -126,10 +126,6 @@ body {
   justify-content: center;
 }
 
-.footer .subscribe .button-send {
-  text-align: center;
-}
-
 .footer .subscribe .form-control {
   border: 1px solid #ccc;
   border-radius: 0.25rem;
@@ -167,13 +163,13 @@ body {
 
   .footer .subscribe {
     align-items: center;
-    width: 100%;
+    width: 100rem;
     margin: 0 auto;
   }
 
   .footer .subscribe .form-control {
     margin-bottom: 0.5rem;
-    width: 50rem;
+    width: 100%;
   }
 
   .footer h4 {
